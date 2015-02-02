@@ -1,0 +1,11 @@
+---
+  cluster.name: <%= @cluster_name %>
+  node.master: true
+  node.data: true
+  index.number_of_shards: 3
+  index.number_of_replicas: 1
+  bootstrap.mlockall: true
+  discovery.zen.minimum_master_nodes: <%= @cluster_quorum %>
+  discovery.zen.ping.timeout: "5s"
+  discovery.zen.ping.multicast.enabled: false
+  discovery.zen.ping.unicast.hosts: <%= @cluster_members %>
