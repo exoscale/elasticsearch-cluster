@@ -7,7 +7,7 @@ This vagrant file has full compatibility with exoscale.
 
 ## Requirements
 
-- A working [vagrant](https://vagrantup.com) installation
+- A working [vagrant](http://vagrantup.com) installation
 - The vagrant hostmanager plugin, install it with `vagrant plugin install hostmanager` (known working version: 0.6.0)
 - The vagrant cloudstack plugin, install it with `vagrant plugin install cloudstack` (known working version 1.4.0)
 
